@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;300;400;500;600;700;800;900&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@900&family=Lora:wght@400;500;600;700&family=Montserrat:wght@900&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/source.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js
+    "></script>
+    <title>Interior Consultant</title>
+
+</head>
+<body class="interior_body">
+    <div class="container-fluid interior_div">
+        <header class="navbar navbar-expand-md interior_header navbar-dark">
+            <p class="navbar-brand interior_header_icon">This Interior
+            </p>
+            <button type="button" class="navbar-toggler interior_header_btn" data-bs-toggle="collapse" data-bs-target="#interior_header_list">
+                <span class="navbar-toggler-icon"  onclick="openNav()"></span>
+            </button>
+            <div class="collapse navbar-collapse interior_header_list" id="interior_header_list">
+                <div id="interior_header_li_close" onclick="closeNav()">X</div>
+                <ul class="navbar-nav ms-auto interior_header_ul">
+                    <li class="nav-items interior_header_li"><a href="#" class="nav-link interior_header_a">Home</a></li>
+                    <li class="nav-items interior_header_li"><a href="#" class="nav-link interior_header_a">Collection</a></li>
+                    <li class="nav-items interior_header_li"><a href="#" class="nav-link interior_header_a">About</a></li>
+                    <li class="nav-items interior_header_li interior_header_li_last"><a href="#" class="nav-link interior_header_a">Contact</a></li>
+
+                </ul>
+            </div>
+        </header>
+        <main class="container-fluid interior_main">
+            <div class="row interior_main_row">
+                <div class="col-lg-5 col-md-5 col-sm-12 interior_main_col_1">
+                    <div>
+                        <p class="interior_main_head">Modern interior</p>
+                        <p class="interior_main_content">A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
+                        <p class="interior_main_content_2">Read more    <span class="interior_main_arrow">   —></span></p>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12 px-0 interior_main_col_2a">
+                    <img src="Images/photo1.png" alt="" class="img-fluid interior_main_img">
+                       
+                    <div class="interior_main_col2b">
+                        <div class="container-fluid interior_main_col2b_sub">
+                            <p class="Image p-0 m-0"><img src="Images/photo2.png" alt="" class="img">
+                            </p>
+                            <div class="interior_main_col2b_sub2">
+                                <p class="interior_main_col2b_name p-0 m-0">Aliza Webber</p>
+                                <p class="interior_main_col2b_position p-0 m-0">Interior designer</p>
+                            </div>
+                        </div>
+                        <p class="interior_main_col2b_detail">Designed in 2020 by Aliza Webber</p>                    </div>
+                    </div>
+            </div>
+        </main>
+        <footer class="interior_footer">created by Dev-Boobalan - devChallenges.io</footer>
+    </div>
+    <script>
+        function closeNav() {
+            document.getElementById("interior_header_list").style.display="none"; 
+        }
+        function openNav() {
+            document.getElementById("interior_header_list").style.display="flex"; 
+        }
+    </script>
+</body>
+</html>

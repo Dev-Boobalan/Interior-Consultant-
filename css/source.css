@@ -1,0 +1,383 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+    box-sizing: border-box;    
+}
+.interior_body{
+    background: #181719;
+    margin-right: 40px;
+}
+.interior_header{
+    margin-bottom: 100px;
+}
+.interior_header_icon{
+    font-family: 'Crimson Pro', serif;
+    font-weight: 200;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 8px 8px;
+    border: #FFFFFF 1px solid;
+}
+#interior_header_li_close{
+    display: none;
+}
+
+.interior_header_list .interior_header_li a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding: 8px 0;
+}
+.interior_header_li{
+    padding: 0 43px;
+    transition: bordr;
+}
+.interior_header_li_last{
+    padding: 0 0 0 43px;
+
+}
+.interior_header_list .interior_header_li a{
+    transition: all 500ms linear;
+    }
+.interior_header_list .interior_header_li a:hover{
+    border-bottom: 2px solid #181719;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 700;
+    color: #181719;
+    transform: rotate();
+}
+
+.interior_main_col_1{
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.interior_main_col_1 div{
+    padding-right: 80px;
+}
+.interior_main_head{
+    font-family: 'Lora', serif;
+    font-size: 48px;
+    font-weight: 500;
+}
+.interior_main_content{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+.interior_main_content_2{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        margin: 40px 0 70px 0;
+        font-size: 18px;
+    }
+    .interior_main_col_2a{
+        position: relative;
+    }
+.interior_main_col2b{
+    background-color:#181719;
+    max-width: 410px;
+    max-height: 189px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 30px;
+    bottom: -110px;
+}    
+.interior_main_col2b_sub{
+    display: flex;
+    margin-bottom: 10px;
+}
+.interior_main_col2b_sub img{
+    width: 55px;
+    margin: 20px 20px 10px 26px;
+    border-radius: 50%;
+}
+.interior_main_col2b_name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+.interior_main_col2b_position{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #828282;
+    }
+.interior_main_col2b_detail{
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    padding: 10px 97px 34px 26px;
+    
+}
+.interior_main_col2b_sub2{
+    margin: 25px 0 0 0;
+}
+
+.interior_footer{
+    text-align: center;
+    margin: 240px 0 24px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 1220px){
+    .interior_main_head{
+        font-size: 44px;
+    }
+    .interior_main_content{
+        font-size: 22px;
+    
+    }
+    .interior_main_col_1 div{
+        padding-right: 50px;
+    }
+    
+    .interior_body{
+       margin-right: 20px;
+    }
+    .interior_header_li{
+        padding: 0 35px;
+    }    
+        
+}
+
+@media only screen and (max-width: 1056px) {
+    .interior_main_head{
+        font-size: 42px;
+    }
+    .interior_main_content{
+        font-size: 20px;
+    
+    }
+    .interior_main_col_1 div{
+        padding-right: 30px;
+    }
+    
+    .interior_body{
+       margin-right: 20px;
+    }
+    .interior_main_col2b{
+        
+        right: 30px;
+        bottom: -110px;
+    }
+    .interior_header_li{
+        padding: 0 28px;
+    }
+    .interior_header_list .interior_header_li a{
+        font-size: 16px;
+    }
+           
+}
+@media only screen and (max-width: 860px){
+   .interior_main_head{
+        font-size: 42px;
+    }
+    .interior_main_content{
+        font-size: 20px;
+    
+    }
+    .interior_main_col_1 div{
+        padding-right: 30px;
+    }
+    
+    .interior_body{
+       margin-right: 20px;
+    }
+
+    .interior_header_li{
+        padding: 0 28px;
+    }
+    .interior_header_list .interior_header_li a{
+        font-size: 16px;
+    }
+
+    .interior_main_col2b{
+        max-width: 350px;
+        right: 30px;
+        bottom: -60px;
+    }
+    .interior_main_col2b_sub{
+        display: flex;
+        margin-bottom: 0px;
+    }    
+    
+    .interior_main_col2b_sub img{
+        width: 50px;
+        margin: 15px 15px 8px 21px;
+        border-radius: 50%;
+    }
+    .interior_main_col2b_name{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        
+    }
+    .interior_main_col2b_position{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+        color: #828282;
+        }
+    .interior_main_col2b_detail{
+        font-family: 'Lora', serif;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 29px;
+        padding: 10px 87px 34px 26px;
+        
+    }
+    @media only screen and (max-width: 822px){
+        .interior_main_col2b{
+            right: 30px;
+            bottom: -10px;
+        }
+    }
+    
+}
+@media only screen and (max-width: 767px){
+    .interior_body{
+        margin-right: 0px;
+    }
+    .interior_header{
+        margin-bottom: 25px;
+    }
+    .interior_main_head{
+        font-size: 42px;
+    }
+    .interior_main_content{
+        font-size: 24px;
+        padding-right: 113px;
+    }
+    .interior_main_content_2{
+        font-size: 18px;
+        
+    }
+    .interior_main_col_1{
+        align-items: top;
+    }    
+    .interior_main_col2b{
+        background-color:#181719;
+        max-width: 410px;
+        max-height: 189px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 30px;
+        bottom: -110px;
+    }    
+    
+    .interior_main_col2b_sub img{
+        width: 55px;
+        margin: 20px 20px 10px 26px;
+        border-radius: 50%;
+    }
+    .interior_main_col2b_name{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .interior_main_col2b_position{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        color: #828282;
+        }
+    .interior_main_col2b_detail{
+        font-family: 'Lora', serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31px;
+        padding: 10px 97px 34px 26px; 
+    }
+    .interior_header_list{
+        text-align: center;
+        position: absolute;
+    }
+    .interior_header_ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        background-color: #181719;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+    .interior_header_li{
+        padding: 10px 0;
+        margin: 10px;
+    }
+    .interior_header_list .interior_header_li a{
+        font-size: 18px;
+   }
+   #interior_header_li_close{
+    display: block;
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    transition: all 500ms ease-in-out;
+} 
+#interior_header_li_close:hover{
+  color: #828282;
+} 
+}
+@media only screen and (max-width: 560px){
+    .interior_main_head{
+        font-size: 36px;
+    }
+    .interior_main_content{
+        font-size: 14px;
+        padding-right: 70px;
+    }
+    .interior_main_content_2{
+        font-size: 14px;
+    }
+    .interior_body{
+        margin-right: 0px;
+    }
+    .interior_main_col2b{
+        max-width: 300px;
+        max-height: 138pt;
+        right: 10px;
+        bottom: -110px;
+    }    
+    .interior_main_col2b_sub{
+        display: flex;
+        margin-bottom: 0;
+    }
+    .interior_main_col2b_sub img{
+        width: 45px;
+        margin: 15px 20px 8px 15px;
+        border-radius: 50%;
+    }
+    .interior_main_col2b_name{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .interior_main_col2b_position{
+        font-size: 10px;
+        font-weight: 500;
+        }
+    .interior_main_col2b_detail{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 23px;
+        padding: 11.9px 71px 19px 26px;
+    }
+}
